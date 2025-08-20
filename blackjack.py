@@ -3,12 +3,12 @@ import time
 from os import system as sys; sys('cls')
 
 #listas para jogo
-baralho = ["Ás", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "Valete", "Dama", "Rei"]
-mão = []
-dealer = random.randint(17, 21)
+baralho = ["Ás", 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "Valete", "Dama", "Rei"] #cards in game
+mão = [] #your hand
+dealer = random.randint(17, 21) #the randomly generated number for the dealer
 
 #intro
-while True:
+while True: #here in the beggining you can introduce the project, like i did
    print("Bem vindo ao Blackjack do Cabs!\n-não é 100% fiel ao de cassino\n")
    print("As regras são simples:")
    print("1- As cartas que você tirar, serão somadas.")
